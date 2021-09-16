@@ -5,7 +5,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   </head>
 
-  <div class=" bg-dark-cyan flex justify-center items-center h-screen w-screen">
+  <div class="background">
     <Zoran />
   </div>
   
@@ -22,3 +22,17 @@ export default {
   }
 }
 </script>
+
+ <style scoped>
+    .background {
+      background-image: url('/images/bg-pattern-top.svg'), url('/images/bg-pattern-bottom.svg');
+      background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+      background-repeat: no-repeat;
+      background-color: #19A2AE;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+ </style>

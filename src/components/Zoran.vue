@@ -1,5 +1,5 @@
 <template>
-    <div class=" w-80 flex flex-col justify-center items-center font-Kumbh-Sans">
+    <div class=" w-80 flex flex-col justify-center items-center font-Kumbh-Sans z-10">
         <img class=" rounded-t-2xl h-36 w-auto" src="/images/bg-pattern-card.svg" alt="filler">
         <img class="absolute rounded-full border-8 -mt-12 border-white" src="/images/image-victor.jpg" alt="victor">
         <div class=" bg-white h-36 w-full text-center">
